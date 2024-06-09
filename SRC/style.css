@@ -1,0 +1,191 @@
+html{
+  font-size: 18px;
+}
+body {
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: brown;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size:larger;
+}
+#banner {
+  width: 100%;
+  object-fit: cover;
+}
+p {
+  text-align: center;
+  text-decoration: solid;
+}
+.offer {
+  text-align: left;
+  text-decoration: solid;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial;
+  text-align: justify;
+  font-family: "ROboto", sans-serif;
+}
+#navbar {
+  padding: 1px;
+  text-align: left;
+}
+#logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  margin: 0;
+}
+#about {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: white;
+}
+#Description {
+  width: 50%;
+  padding-right: 8px;
+  text-align: justify;
+  text-align: center;
+  font-size: 1.25re;
+  color: black;
+}
+#team {
+  width: 50%;
+  background-color: rgb(251, 252, 253);
+}
+.teamphoto {
+  border-radius: 10px;
+  height: auto;
+}
+h2 {
+  text-align: center;
+}
+.form-group {
+  margin: 16px 0;
+}
+#application {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+#application-form input,
+select,
+textarea {
+  padding: 8px;
+  font-size: 1.25rem;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.form-group textarea {
+  width: 80%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+.form-group input[type="submit"] {
+  background-color: rgb(255, 64, 0);
+  color: rgb(252, 251, 251);
+  font-weight: 500;
+  padding: 16px 16px 16px 16px;
+  cursor: pointer;
+}
+#application-form label {
+  font-weight: 600;
+}
+#application-form div {
+  margin: 16px;
+}
+input:hover {
+  color: crimson;
+}
+#Jobs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+h3 {
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+.copyright {
+  color: rgba(251, 5, 5, 0.993);
+  text-align: center;
+}
+.W3Schools {
+  text-decoration: none;
+  text-align: left;
+}
+.Python {
+  text-decoration: none;
+  text-align: center;
+}
+.media {
+  text-decoration: none;
+  text-align: center;
+}
+#footer {
+  background-color: rgb(242, 248, 248);
+  padding: 9px;
+  margin-top: 33px;
+  text-align: center;
+}
+#footerlinks {
+  list-style: none;
+}
+#footerlinks li {
+  display: inline;
+  margin: 0 16px;
+}
+.W3 {
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  color: darkgreen;
+}
+#jobs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+  text-align: center;
+}
+#jobrole {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.jobs-header-row th {
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: rgb(173, 191, 229);
+  text-align: center;
+}
+.jobs-data-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+.jobs-data-row td {
+  border: 1px solid gray;
+  padding: 8px;
+}
+#Jobs-table tr:nth-child(odd) {
+  background-color: rgb(9, 202, 250);
+}
+.abc {
+  text-align: left;
+}

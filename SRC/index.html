@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Welcome to W3Schools
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="my logo" src="hand_shaking.jpg">
+    </div>
+    <img id="banner" src="laptop_image.jpg" alt="coding img" height="250" width="860">
+    <h1>About W3 school</h1>
+
+    <div id="about">
+        <div id="Description">
+            <p>"W3Schools is a popular online platform that provides
+                web development tutorials and references for various
+                web technologies. It serves as a comprehensive resource
+                for individuals who are learning or looking to enhance
+                their skills in HTML, CSS, JavaScript, and other related
+                technologies.
+            </p>
+            <p>One of the notable features of W3Schools is its
+                "Try it Yourself" editor, which allows users
+                to experiment with code directly within their
+                web browser. This interactive environment enables
+                learners to test out different code snippets, modify
+                them, and see the results in real-time, providing
+                an effective way to practice and reinforce their
+                understanding.</p>
+            <p class="offer"><b>We also offer 2 industry-focused Bootcamp:</b></p>
+            <ol class="abc">
+                <li>
+                    <a class="W3" href="https://www.w3schools.com/">
+                        W3 School full stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a class="W3" href="https://www.w3schools.com/datascience/default.asp">
+                        W3 School Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+        </div>
+        <div id="team">
+            <img class="teamphoto" alt="team" src="plain_yellow_image.jpg" height="250" width="400">
+        </div>
+    </div>
+    <h2>Job Opportunities:-</h2>
+    <div id="Jobs-table">
+        <table class="jobs-data-row">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+                <th rowspan="2">Apply</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>Rs 12,00,000</td>
+                <td>Mar 3, 2023</td>
+                <td>Apply</td>
+            </tr>
+
+            <tr>
+                <td>Ful stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>Rs 15,00,000</td>
+                <td>Feb 1, 2023</td>
+                <td>Apply</td>
+            </tr>
+
+            <tr>
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Dec 22,,2022</td>
+                <td>Apply</td>
+            </tr>
+
+            <tr>
+                <td>Machine Learning Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$80,000</td>
+                <td>Sep 19,2022</td>
+                <td>Apply</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form id="application-form">
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="Enter your Email-ID">
+            </div>
+
+            <div class="form-group">
+
+                <label for="phone">phone</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+917234948387">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">select an option</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Full stack Developer">Full stack Developer</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept="pdf,.doc,.docx">
+            </div>
+
+            <div class="form-group">
+                <label for="coverlater">Cover Later</label><br>
+                <textarea id="coverlater" name="coverlater" rows="5"
+                    placeholder="Explain WHat Makes You SUitable For the job ...."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="submit application" name="submit" required>
+            </div>
+
+        </form>
+    </div>
+    <div id="footer">
+        <ul id="footerlinks">
+            <li>
+                <a class="W3Schools"
+                    href="https://www.google.com/search?q=w3schools&rlz=1C1VDKB_enIN1045IN1045&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkyMDc0ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8"
+                    target="_blank">
+                    courses
+                </a>
+            </li>
+            <li>
+                <a class="Python" href="https://www.w3schools.com/python/" target="_blank">
+                    Program
+                </a>
+            </li>
+            <li>
+                <a class="media" href="https://www.youtube.com/@w3schools" target="_blank">
+                    youtube
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="copyright">Copyright 1999-2024</div>
+    </div>
+</body>
+
+</html>
